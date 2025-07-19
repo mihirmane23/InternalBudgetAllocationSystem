@@ -9,14 +9,14 @@ obj/
 
 # Visual Studio
 .vscode/
-*.vs/
+.vs/
 *.code-workspace
 
 # NuGet
 packages/
 *.nupkg
 
-# IDEs
+# JetBrains IDEs
 .idea/
 *.iml
 
