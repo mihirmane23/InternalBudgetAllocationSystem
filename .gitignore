@@ -10,13 +10,11 @@ obj/
 # Visual Studio
 .vscode/
 .vs/
-*.code-workspace
 
 # NuGet
 packages/
 *.nupkg
 
-# JetBrains IDEs
 .idea/
 *.iml
 
@@ -27,4 +25,5 @@ Thumbs.db
 # Node.js / Angular
 node_modules/
 dist/
+
 *.log
