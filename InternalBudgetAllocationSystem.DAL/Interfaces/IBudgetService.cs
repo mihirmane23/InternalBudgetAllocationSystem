@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InternalBudgetAllocationSystem.Models;
 
 namespace InternalBudgetAllocationSystem.DAL.Interfaces
 {
-    internal class IBudgetService
+    public interface IBudgetService
     {
+        Task<Budget> GetByIdAsync(int id);
+
+        Task<List<Budget>> GetAllAsync();
+
+        Task CreateAsync(Budget budget);
+
+        Task UpdateAsync(Budget budget);
+
+        Task DeleteAsync(int id);
     }
 }
